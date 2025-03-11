@@ -2,7 +2,8 @@
 out/
 !**/src/main/**/out/
 !**/src/test/**/out/
-/.idea/
+.idea/
+eaykuter-project2.iml
 
 ### Eclipse ###
 .apt_generated
