@@ -34,10 +34,10 @@ This implementation uses an explicit `ArrayDeque` (acting as a stack) to manage 
 ### 2. Object-Oriented Design
 
 The code is separated into logical classes to improve readability and maintainability:
-* `SudokuMove.java`: A simple **data object** to represent a potential move (row, column, digit).
-* `SudokuPuzzle.java`: The **model**. It represents the Sudoku board itself, holding the 2D array and methods for getting/setting digits and checking move validity.
-* `SudokuSolver.java`: The **engine**. It contains the core `solve()` method that implements the backtracking logic.
-* `SudokuTest.java`: The **driver**. It handles user input, file loading, and initializes the solving process.
+* `SudokuMove.java`: A simple data object to represent a potential move (row, column, digit).
+* `SudokuPuzzle.java`: Represents the Sudoku board itself, holding the 2D array and methods for getting/setting digits and checking move validity.
+* `SudokuSolver.java`: Contains the core `solve()` method that implements the backtracking logic.
+* `SudokuTest.java`: Handles user input, file loading, and initializes the solving process.
 
 ---
 
